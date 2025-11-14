@@ -10,7 +10,7 @@ echo "     WORKFLOW AUTOMATION TOOL"
 echo "======================================="
 
 # ---- Preguntar por la branch ----
-read -p "Ingresa el nombre de la rama personal (ej: dev/mtc-jagudelo): " BRANCH
+read -p "Ingresa el nombre de la rama personal (ej: dev/mtc-<usuario>): " BRANCH
 
 if [[ -z "$BRANCH" ]]; then
   echo "❌ Error: no ingresaste un nombre de rama."
